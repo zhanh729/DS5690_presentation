@@ -59,3 +59,33 @@ The BLIP. The CapFilt scheme adopted by the BLIP framework offers an efficient s
   The model leverages advanced learning objectives such as Image-Text Contrastive learning (ITC) and Image-Text Matching (ITM) to discern and mitigate noise in the data. ITC enhances the model's ability to judge the quality of image-text pairs by comparing their representations, while ITM focuses on assessing the match between an image and its text, aiding the model in understanding complex visual-language relationships. 
   
 </details>
+
+
+1. ITC is a training objective used to align the representations of images and their corresponding textual descriptions in a shared feature space. By minimizing the distance between correct image-text pairs and maximizing the distance between mismatched pairs, the model learns to accurately associate images with their descriptions. This contrastive approach helps in enhancing the model's understanding of the intricate relationships between visual and textual content.
+ITM (Image-Text Matching)
+
+2. ITM is another crucial objective that focuses on the binary classification task of determining whether an image and a text description match or not. It teaches the model to predict the compatibility between given images and texts, further refining its ability to understand and generate coherent cross-modal representations. This objective directly contributes to improving the model's performance on tasks that require precise interpretation of the correspondence between images and texts.
+LM (Language Modeling)
+
+3. LM typically refers to the training objective related to generating or predicting textual content. It involves modeling the probability distribution of word sequences, enabling the model to generate text (e.g., captions, descriptions) that is coherent and contextually relevant to the given visual inputs. Language modeling objectives can be used to enhance the model's capabilities in tasks like image captioning, where it needs to produce accurate and descriptive text based on visual stimuli.
+
+
+## Experiment
+The paper conducted several key experiments to evaluate the effectiveness of the BLIP model:
+
+1. Effect of CapFilt: The impact of CapFilt was assessed by comparing models pre-trained with and without CapFilt on different datasets, to evaluate its influence on downstream tasks.
+
+2. Different Parameter Sharing Strategies: The study examined how sharing parameters between the text encoder and decoder during pre-training affects performance.
+
+3. Comparison with State-of-the-Art: BLIP was benchmarked against other current state-of-the-art vision-language models to showcase its performance across multiple downstream tasks.
+
+4. Synthetic Caption Generation: The models pre-trained on 14M images were evaluated using two methods for generating synthetic captions—beam search and nucleus sampling—and their impact on model performance was compared.
+
+5. Image-Text Retrieval: The model’s ability to perform image-text retrieval was assessed on the COCO and Flickr30K datasets.
+
+6. Image Captioning: The model’s capability to generate image captions was evaluated on the COCO dataset.
+
+7. Visual Question Answering (VQA): The VQA dataset was used to test the model's ability to answer questions about images.
+
+8. Zero-shot Transfer to Video-Language Tasks: The BLIP model’s adaptability to video-related tasks without additional training was tested.
+
