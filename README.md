@@ -79,12 +79,14 @@ The paper conducted several key experiments to evaluate the effectiveness of the
 ![Example Image](https://github.com/zhanh729/DS5690_presentation/blob/1af03363215b1d80865721d6b8d481491d878be8/images/table1.png)
 
 2. Different Parameter Sharing Strategies: The study examined how sharing parameters between the text encoder and decoder during pre-training affects performance.
-![Example Image](https://github.com/zhanh729/DS5690_presentation/blob/1af03363215b1d80865721d6b8d481491d878be8/images/table3.png)
+   
+![Example Image](https://github.com/zhanh729/DS5690_presentation/blob/c001e34d19e34a08c7b2668dbad0b0691fe90b6e/images/table3.png)
 
 
-3. Comparison with State-of-the-Art: BLIP was benchmarked against other current state-of-the-art vision-language models to showcase its performance across multiple downstream tasks.
+4. Comparison with State-of-the-Art: BLIP was benchmarked against other current state-of-the-art vision-language models to showcase its performance across multiple downstream tasks.
   * Image-Text Retrieval: The model’s ability to perform image-text retrieval was assessed on the COCO and Flickr30K datasets.
-  ![Example Image](https://github.com/zhanh729/DS5690_presentation/blob/1af03363215b1d80865721d6b8d481491d878be8/images/table5.png)
+    
+  ![Example Image](https://github.com/zhanh729/DS5690_presentation/blob/c001e34d19e34a08c7b2668dbad0b0691fe90b6e/images/table5.png)
 
   * Image Captioning: The model’s capability to generate image captions was evaluated on the COCO dataset.
 
