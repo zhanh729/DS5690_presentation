@@ -90,7 +90,7 @@ The paper conducted several key experiments to evaluate the effectiveness of the
 
   * Image Captioning: The model’s capability to generate image captions was evaluated on the COCO dataset.
     
-    ![Example Image](https://github.com/zhanh729/DS5690_presentation/blob/744fdd19c1110a84be21d56d05f58e05d9717225/table7.png
+  ![Example Image](https://github.com/zhanh729/DS5690_presentation/blob/744fdd19c1110a84be21d56d05f58e05d9717225/table7.png
 )
 
   * Visual Question Answering (VQA): The VQA dataset was used to test the model's ability to answer questions about images.
