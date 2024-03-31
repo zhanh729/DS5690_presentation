@@ -43,8 +43,9 @@ What are the main challenges we face with current Vision-Language Pre-training (
 
 </details>
 
-So， how can we effectively extract high-quality image-text pairs to improve the learning efficiency and performance of models?
+So, how can we effectively extract high-quality image-text pairs to improve the learning efficiency and performance of models?
 
+The BLIP.
 
 
 ### Question2:
