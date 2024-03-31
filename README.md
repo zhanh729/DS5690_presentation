@@ -79,16 +79,16 @@ The paper conducted several key experiments to evaluate the effectiveness of the
 ![Example Image](https://github.com/zhanh729/DS5690_presentation/blob/1af03363215b1d80865721d6b8d481491d878be8/images/table1.png)
 
 2. Different Parameter Sharing Strategies: The study examined how sharing parameters between the text encoder and decoder during pre-training affects performance.
+![Example Image](https://github.com/zhanh729/DS5690_presentation/blob/1af03363215b1d80865721d6b8d481491d878be8/images/table3.png)
+
 
 3. Comparison with State-of-the-Art: BLIP was benchmarked against other current state-of-the-art vision-language models to showcase its performance across multiple downstream tasks.
+  * Image-Text Retrieval: The model’s ability to perform image-text retrieval was assessed on the COCO and Flickr30K datasets.
+  ![Example Image](https://github.com/zhanh729/DS5690_presentation/blob/1af03363215b1d80865721d6b8d481491d878be8/images/table5.png)
 
-4. Synthetic Caption Generation: The models pre-trained on 14M images were evaluated using two methods for generating synthetic captions—beam search and nucleus sampling—and their impact on model performance was compared.
+  * Image Captioning: The model’s capability to generate image captions was evaluated on the COCO dataset.
 
-5. Image-Text Retrieval: The model’s ability to perform image-text retrieval was assessed on the COCO and Flickr30K datasets.
+  * Visual Question Answering (VQA): The VQA dataset was used to test the model's ability to answer questions about images.
 
-6. Image Captioning: The model’s capability to generate image captions was evaluated on the COCO dataset.
-
-7. Visual Question Answering (VQA): The VQA dataset was used to test the model's ability to answer questions about images.
-
-8. Zero-shot Transfer to Video-Language Tasks: The BLIP model’s adaptability to video-related tasks without additional training was tested.
+4. Zero-shot Transfer to Video-Language Tasks: The BLIP model’s adaptability to video-related tasks without additional training was tested.
 
