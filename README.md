@@ -60,6 +60,7 @@ The BLIP. The CapFilt scheme adopted by the BLIP framework offers an efficient s
   
 </details>
 
+![Example Image](https://github.com/zhanh729/DS5690_presentation/blob/1af03363215b1d80865721d6b8d481491d878be8/images/objectives_of_BLIP.png)
 
 1. ITC is a training objective used to align the representations of images and their corresponding textual descriptions in a shared feature space. By minimizing the distance between correct image-text pairs and maximizing the distance between mismatched pairs, the model learns to accurately associate images with their descriptions. This contrastive approach helps in enhancing the model's understanding of the intricate relationships between visual and textual content.
 ITM (Image-Text Matching)
@@ -74,6 +75,8 @@ LM (Language Modeling)
 The paper conducted several key experiments to evaluate the effectiveness of the BLIP model:
 
 1. Effect of CapFilt: The impact of CapFilt was assessed by comparing models pre-trained with and without CapFilt on different datasets, to evaluate its influence on downstream tasks.
+
+![Example Image](https://github.com/zhanh729/DS5690_presentation/blob/1af03363215b1d80865721d6b8d481491d878be8/images/table1.png)
 
 2. Different Parameter Sharing Strategies: The study examined how sharing parameters between the text encoder and decoder during pre-training affects performance.
 
