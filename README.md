@@ -32,3 +32,19 @@ The model is pre-trained with objectives tailored to align visual and textual re
 3. Noise Reduction: Integral to the CapFilt process, this step actively removes irrelevant or misleading text associated with images, honing the precision of the dataset and thereby the model's predictive performance.
 
 By implementing these features, BLIP sets out to create a robust and versatile foundation for vision-language models that is capable of performing effectively even with the inherently noisy data gathered from the web.
+
+
+### Question1:
+What are the main challenges we face with current Vision-Language Pre-training (VLP) models, especially when dealing with data collected from the internet?"
+<details>
+  <summary>Answer</summary>
+  
+   Firstly, internet data often contains a large number of inaccurate or irrelevant image-text pairs, leading models to learn incorrect or imprecise information. Secondly, the vast scale and complexity of the data make extracting useful information costly, limiting the efficiency of model learning. 
+
+</details>
+
+So， how can we effectively extract high-quality image-text pairs to improve the learning efficiency and performance of models?
+
+
+
+### Question2:
