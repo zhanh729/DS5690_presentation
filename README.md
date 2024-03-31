@@ -6,10 +6,15 @@ This document synthesizes the insights from the research paper "BLIP: Bootstrapp
 
 Presenter: Haonan Zhang, Zhenyu Liu
 
+
+
 ## Overview
 
-The BLIP framework integrates a new approach to pre-train a vision-language model by leveraging a bootstrapped dataset, which enhances the model's performance across various downstream tasks by refining the noisy web-collected image-text pairs, aiming to bridge the gap between large-scale noisy web data and the need for high-quality training sets. The document outlines the BLIP's solution to these issues, highlighting its unique bootstrapping process that leads to improved model performance across a variety of tasks.
+The BLIP framework integrates a new approach to pre-train a vision-language model by leveraging a bootstrapped dataset, which enhances the model's performance across various downstream tasks by refining the noisy web-collected image-text pairs, aiming to bridge the gap between large-scale noisy web data and the need for high-quality training sets. The paper outlines the BLIP's solution to these issues, highlighting its unique bootstrapping process that leads to improved model performance across a variety of tasks.
 
 ### Introduction
 While existing vision-language models demonstrate impressive capabilities, they often require extensive data and compute resources. BLIP
 addresses this by introducing a novel bootstrapping method called CapFilt, which utilizes synthetic caption generation and filtering to improve data quality for model pre-training.
+
+### BLIP Framework Overview
+BLIP proposes a new vision-language pre-training framework that efficiently combines understanding and generation tasks for vision and language, aiming to handle the noise intrinsic to web-crawled datasets.
