@@ -95,5 +95,7 @@ The paper conducted several key experiments to evaluate the effectiveness of the
 
   * Visual Question Answering (VQA): The VQA dataset was used to test the model's ability to answer questions about images.
 
+  ![Example Image](https://github.com/zhanh729/DS5690_presentation/blob/c001e34d19e34a08c7b2668dbad0b0691fe90b6e/images/table8.png)
+
 4. Zero-shot Transfer to Video-Language Tasks: The BLIP model’s adaptability to video-related tasks without additional training was tested.
 
