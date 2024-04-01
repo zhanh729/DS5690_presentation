@@ -25,6 +25,6 @@ Output: enhanced_dataset (quality-enhanced set of image-text pairs)
    
         ii. Otherwise, remove the synthetic_caption from the dataset.
    
-    b. Combine the retained synthetic captions with the original captions to form the enhanced_dataset.
+    b. Combine the retained synthetic captions with the original captions(including original human_annotation datasets) to form the enhanced dataset.
 
 5. Return the enhanced_dataset, which will be used to pre-train a new model with improved data quality.
