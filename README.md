@@ -1,5 +1,14 @@
 # DS5690_presentation
 
+### Question1:
+What are the main challenges we face with current Vision-Language Pre-training (VLP) models, especially when dealing with data collected from the internet?"
+<details>
+  <summary>Answer</summary>
+  
+   Firstly, internet data often contains a large number of inaccurate or irrelevant image-text pairs, leading models to learn incorrect or imprecise information. Secondly, the vast scale and complexity of the data make extracting useful information costly, limiting the efficiency of model learning. 
+
+</details>
+
 ## BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation
 
 This document synthesizes the insights from the research paper "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation," detailing a novel framework for enhancing the performance of vision-language models by refining the quality of training data through a bootstrapping method known as CapFilt.
@@ -34,14 +43,7 @@ The model is pre-trained with objectives tailored to align visual and textual re
 By implementing these features, BLIP sets out to create a robust and versatile foundation for vision-language models that is capable of performing effectively even with the inherently noisy data gathered from the web.
 
 
-### Question1:
-What are the main challenges we face with current Vision-Language Pre-training (VLP) models, especially when dealing with data collected from the internet?"
-<details>
-  <summary>Answer</summary>
-  
-   Firstly, internet data often contains a large number of inaccurate or irrelevant image-text pairs, leading models to learn incorrect or imprecise information. Secondly, the vast scale and complexity of the data make extracting useful information costly, limiting the efficiency of model learning. 
 
-</details>
 
 The CapFilt scheme adopted by the BLIP framework offers an efficient solution. CapFilt involves two key steps: first is synthetic caption generation, creating new and diverse descriptions for images, which not only adds to the data diversity but also improves the model's adaptability to new situations; the second step is the filtering process, where advanced algorithms identify and remove text that is mismatched or of low quality relative to the images. 
 
