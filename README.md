@@ -43,9 +43,7 @@ What are the main challenges we face with current Vision-Language Pre-training (
 
 </details>
 
-So, how can we effectively extract high-quality image-text pairs to improve the learning efficiency and performance of models?
-
-The BLIP. The CapFilt scheme adopted by the BLIP framework offers an efficient solution. CapFilt involves two key steps: first is synthetic caption generation, creating new and diverse descriptions for images, which not only adds to the data diversity but also improves the model's adaptability to new situations; the second step is the filtering process, where advanced algorithms identify and remove text that is mismatched or of low quality relative to the images. 
+The CapFilt scheme adopted by the BLIP framework offers an efficient solution. CapFilt involves two key steps: first is synthetic caption generation, creating new and diverse descriptions for images, which not only adds to the data diversity but also improves the model's adaptability to new situations; the second step is the filtering process, where advanced algorithms identify and remove text that is mismatched or of low quality relative to the images. 
 
 ![Example Image](https://github.com/zhanh729/DS5690_presentation/blob/a49811deb498d3769b65fbdecc0414157ebabab2/images/Framework_of_BLIP.png)
 
