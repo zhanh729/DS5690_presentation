@@ -1,7 +1,7 @@
 # DS5690_presentation
 
 ### Question1:
-What are the main challenges we face with current Vision-Language Pre-training (VLP) models, especially when dealing with data collected from the internet?"
+What are the main challenges we face with current Vision-Language Pre-training (VLP) models, especially when dealing with data collected from the internet?
 <details>
   <summary>Answer</summary>
   
